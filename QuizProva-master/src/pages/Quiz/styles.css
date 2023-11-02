@@ -1,0 +1,110 @@
+.container {
+  background: linear-gradient(-1deg, #61DAFB, #20232A);  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  margin: 0 auto;
+  position: relative;
+}
+
+.pontuacao{
+  display: flex;
+  min-height: 200px;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoPerguntas{
+  width: 100%;
+  position: relative;
+}
+
+.contagemPerguntas{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.contagemPerguntas span{
+  font-size: 28px;
+}
+
+.pergunta{
+  margin-bottom: 12px;
+}
+
+.grupoResposta{
+  display: flex;
+  flex: 1 1 200px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.resposta{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+button{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 8px;
+  padding: 8px;
+  border: 3px solid #3E2F5B;
+  cursor: pointer;
+  margin: 0 12px 10px;
+}
+
+button:hover{
+  background-color: #261132;
+}
+
+#reiniciar-button {
+  position: absolute;
+  bottom: 10px; /* Ajuste a posição vertical conforme necessário */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #BA5C12;
+  border-radius: 8px;
+  border: 3px solid #3E2F5B;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-size: large;
+}
+
+
+#reiniciar-button:hover {
+  background-color: #261132;
+}
+
+#tituloprincipal {
+  text-align: center;
+  font-size: 96px;
+  background: linear-gradient(-1deg, #cce3e9, #464958);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -8vh;
+  position: relative;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adicione uma sombra ao texto */
+}
+
